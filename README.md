@@ -38,11 +38,14 @@ It focuses on **client-level awareness, automation, and reduced incident noise**
 
 ## 🧩 System Architecture
 
+```
 +-------------+        API       +-------------+       API        +-------------+
 |   Agent     |  <------------>  |   Server    |  <------------>  |   Client UI |
 | (Client OS) |                  | (ITSM Core) |                  | (Dashboard) |
 +-------------+                  +-------------+                  +-------------+
+```
 
+Agent(Client OS) <-- API --> Server (ITSM Core) <-- API --> Client UI
 
 ---
 
